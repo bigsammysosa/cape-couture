@@ -1,0 +1,1387 @@
+<!--
+
+	2023/12/13
+	thantsha Industries
+	
+	Start-up Weekly
+	
+		--Start-up Weekly is a tech start-up blog
+			that blogs about African Tech start-ups and 
+			follow their progress in the Tech industry
+			focusing on Technological advances and 
+			innovations that aim to improve our daily lives
+			
+			
+			--strictly HTML CSS and js
+
+
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Cape Couture - Hey, we’re Cape Couture. Vibrant Mzansi Style: Trends, Culture, and Elegance.</title>
+  <meta name="title" content="Blogy - Hey, we’re Blogy. See our thoughts, stories and ideas.">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!--favicon -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png"  href="cc.icon">
+<link rel="manifest" href="/site.webmanifest">
+  <!--end-->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="cc.jpg" width="129" height="40" alt="cape couture logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#recent" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.beebou.shop/products/cape-couture-subscription" 
+            class="navbar-link hover:underline" data-nav-link>Subscribtion</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+		
+		
+		<!--must add link to Sign-up page-->
+
+        <a href="#" class="btn">Sign-up</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Hey, we’re Cape Couture.</strong>Vibrant Mzansi Style: Trends, Culture, and Elegance.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <a href="https://www.beebou.shop/products/cape-couture-subscription" type="submit" class="btn">Subscribe</a>
+            </form>
+
+            <p class="newsletter-text">
+              Get the email newsletter and unlock access to members-only content and updates
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Get started with our <strong class="strong">best stories</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="gd2.jpg" width="500" height="600" 
+                    alt="New technology is not good or evil in and of itself" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w1.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w2.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Review</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="post1.html" class="card-title hover:underline">
+                      God Speed ZA, M.O.A Pop Up: Unveils Trendsetting Collection
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Get ready to elevate your style game with God Speed ZA's cutting-edge 
+                    designs straight from the heart of Hatfield! Mark your calendars because they're
+                     bringing their signature flair to the Mall of Africa from March 26th to 29th for 
+                     an exclusive pop-up event you won't want to miss!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="ch4.jpg" width="500" height="600" 
+                    alt="Get ready to spice up your wardrobe with Cheese Merch ZA's 
+                    latest drop: the vibrant and stylish Cheese Merch Tour graphic tees,
+                     straight out of Katlehong, Twala Section!" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="img4.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Creative</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Product</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Cheese Merch ZA's new drop!
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Spice up your wardrobe with Cheese Merch ZA's 
+                    latest drop: the vibrant and stylish Cheese Merch Tour graphic tees,
+                     straight out of Katlehong, Twala Section!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="real1.jpg" width="500" height="600" 
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w9.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Creative</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Grand Openning : RealisRare NEW STORE
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Check out the essence of authentic style with RealisRare Apparel,
+                     a fashion brand hailing from Germiston, South Africa.
+                     Embrace individuality and sophistication with their unique designs
+                      that celebrate the beauty of being true to oneself.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="gs1.jpg" width="500" height="600" 
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w1.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w2.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Story</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      With love and Light
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                     GodSpeed ZA continues to dominate the fashion scene in 2024,
+                     cementing its status as one of the hottest brands with
+                      its cutting-edge designs and unmistakable style.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="chmerch.jpg" width="500" height="600" 
+                    alt="The difference is quality" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w3.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      'ATLR' Girl's Club
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Cheese Merch ZA continues to lead the fashion scene in 2024
+                     with their innovative designs and forward-thinking approach,
+                     setting trends and inspiring style enthusiasts across South Africa and beyond."
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="ri.jpg" width="500" height="600"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w4.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Creating</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      RealisRare, Taking the world by Storm.
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    RealisRare Apparel is setting trends ablaze as one of the hottest brands of 2024, 
+                    with their innovative designs and commitment to authenticity captivating fashion enthusiasts worldwide.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              See what we’ve <strong class="strong">written lately</strong>
+            </h2>
+
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="w5.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="w6.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="w7.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="w8.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="w9.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+              <span class="span">Meet our top authors</span>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="VA.avif" width="550" height="660" 
+                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w1.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w3.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Review</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Virgil Abloh: Revolutionizing Fashion with Creativity and Innovation
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Virgil Abloh revolutionized fashion by elevating street-wear to luxury status
+                     with his brands Pyrex and Off-White, culminating in his role at Louis Vuitton,
+                      leaving an indelible mark on the industry. 
+                    His journey exemplifies the transformative power of creativity and vision, 
+                    shaping fashion culture for generations to come.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="kbza.jpg" width="550" height="660" 
+                    alt="Being unique is better than being perfect" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w2.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Product</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Scorpion Kings take on the UK
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Embark on a sonic journey as Amapiano maestro Kabza de Small
+                     brings his electrifying beats all the way from South Africa to London
+                      for an unforgettable music tour. Known for his infectious rhythms and
+                       soulful melodies, Kabza de Small promises to ignite dance floors and 
+                       captivate audiences with his signature sound.
+                     Don't miss the chance to experience the vibrant energy of Amapiano 
+                     firsthand as Kabza de Small takes London by storm.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="z2.jpg" width="550" height="660" 
+                    alt="Now we’re getting somewhere" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w4.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w5.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w6.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Idea</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Product</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Review</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Zille Wizzy to World
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Join the laughter train with Polokwane's very own YouTube sensation,
+                     Zille Wizzy, known for his hilarious antics and engaging content.
+                      Not only does he dominate the YouTube scene, but he's also a 
+                      charismatic presenter on the hit show "Spreading Humours,"
+                       spreading joy and laughter across screens worldwide. Tune
+                        in for a dose of comedic genius and witness firsthand why
+                         Zille Wizzy is a force to be reckoned with in the digital entertainment realm.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="gs2.jpg" width="550" height="660" 
+                    alt="The trick to getting more done is to have the freedom to roam around" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w7.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Mall Of Africa POP UP
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    GodSpeed ZA continues to lead the fashion scene in 2024 with their
+                     innovative designs and trend-setting style, solidifying their status as a
+                      fashion-forward brand. Their latest collection promises to captivate fashion 
+                      enthusiasts with its unique blend of contemporary flair and timeless elegance. Don't miss the chance to
+                     experience their cutting-edge designs firsthand at their upcoming pop-up event at the prestigious Mall of Africa.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="chmerch3.jpg" width="550" height="660" 
+                    alt="Every day, in every city and town across the country" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w2.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w8.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Story</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Cheese Merch Tour : Get your while stocks last!
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Cheese Merch ZA continues to lead the fashion scene in 2024 with their
+                     innovative designs and forward-thinking approach to streetwear. Their latest collection
+                      of graphic tees showcases their commitment to bold creativity and contemporary style,
+                     solidifying their status as a must-have brand for fashion enthusiasts in South Africa and beyond."
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="rir2.jpg" width="550" height="660" 
+                    alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w8.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">People</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Review</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Story</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Allow Yourself To Grow
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    RealisRare Apparel continues to lead the fashion scene in 2024 with their
+                     innovative designs and trend-setting style, cementing their status as
+                      a fashion-forward brand based in Germiston. With a keen eye for the latest trends and a commitment to pushing boundaries,
+                     RealisRare Apparel is the go-to destination for those seeking cutting-edge fashion pieces to elevate their wardrobe this year.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Load more</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECOMMENDED POST
+      -->
+
+      <section class="section recommended" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <a href="recPost.html"><strong class="strong">Recommended</strong></a>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="gd1.jpg" width="300" height="360" 
+                    alt=" Get ready to spice up your wardrobe with Cheese Merch ZA's 
+                    latest drop: the vibrant and stylish Cheese Merch Tour graphic tees,
+                     straight out of Katlehong, Twala Section!" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w9.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w2.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="recPost.html" class="card-title hover:underline">
+                      Get ready to spice up your wardrobe with Cheese Merch ZA's 
+                      latest drop: the vibrant and stylish Cheese Merch Tour graphic tees,
+                       straight out of Katlehong, Twala Section!
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="gd2.jpg" width="300" height="360" 
+                    alt="Every day, in every city and town across the country " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w3.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Every day, in every city and town across the country
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="ch4.jpg" width="300" height="360" 
+                    alt="I work best when my space is filled with inspiration " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w5.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      I work best when my space is filled with inspiration
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="chmerch4.jpg" width="300" height="360"
+                    alt="I have my own definition of minimalism " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w6.jpg" width="100" height="100"  alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w7.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      I have my own definition of minimalism
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="realisrare.jpg" width="300" height="360" 
+                    alt="Change your look and your attitude " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w6.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Change your look and your attitude
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="rir5.jpg" width="300" height="360" 
+                    alt="The difference is quality " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="w9.jpg" width="100" height="100" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      The difference is quality
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <a href="https://www.beebou.shop/products/cape-couture-subscription" type="submit" class="btn">Subscribe</a>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="cc.jpg" width="129" height="40" alt="cape couture logo">
+          </a>
+
+          <p class="footer-text">
+            Vibrant Mzansi Style: Trends, Culture, and Elegance.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-vimeo"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Vimeo</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membership</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Membership</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Subscribe</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Tags</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Authors</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Cape Couture 2024. Published by <a href="#" class="copyright-link hover:underline">thantshaindustries.com</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
